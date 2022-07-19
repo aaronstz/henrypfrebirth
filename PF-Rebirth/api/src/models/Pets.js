@@ -9,5 +9,14 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     id: { defaultValue: 0 },
+    img:{ type: DataTypes.STRING},
+    type: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    hola: {
+      defaultValue : "Hola"
+    },
+
   });
 };
