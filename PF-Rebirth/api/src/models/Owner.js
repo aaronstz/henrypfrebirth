@@ -19,7 +19,9 @@ module.exports = (sequelize) => {
         gatito: {
             type: DataTypes.STRING,
             defaultValue: 'gatito'
-        }
+        },
+        gateto_revenge:{type: DataTypes.STRING,
+            defaultValue: 'gatito reloaded'}
     })
 }
 
